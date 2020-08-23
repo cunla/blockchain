@@ -1,0 +1,17 @@
+# Mine
+GET http://localhost:5000/mine
+
+
+###
+POST http://localhost:5000/transactions/new
+Content-Type: application/json
+
+{
+  "sender": "x2",
+  "recipient": "y2",
+  "amount":2
+}
+
+
+###
+GET http://localhost:5000/chain
